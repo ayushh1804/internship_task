@@ -1,4 +1,5 @@
 import "./App.css";
+import Benefits from "./components/benefits/Benefits";
 import Footer from "./components/footer/Footer";
 import Join from "./components/join/Join";
 import Landing from "./components/landing_page/Landing";
@@ -10,6 +11,7 @@ function App() {
       <Navbar />
       <Landing />
       <Join />
+      <Benefits />
       <Footer />
     </>
   );
